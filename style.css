@@ -34,6 +34,10 @@ h1 {
   line-height: 1.1;
 }
 
+table {
+  width: 100%;
+}
+
 #app {
   padding: 2rem;
   display: block;

@@ -21,7 +21,7 @@ export function merge(data1, data2) {
   }
 
 
-  // 2. data2 JSON to ARRAY conversion
+  // 2. data2 JSON to ARRAY
   var convertedData2 = [];
   data2.forEach(row => {
     convertedData2.push(Object.keys(row).map((key) => row[key]))
